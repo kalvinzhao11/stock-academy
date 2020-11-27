@@ -1,14 +1,14 @@
 import React, {useEffect} from 'react'
-import { axiosWithAuth } from '../../utils/axiosWithAuth';
+import {axiosWithAuth} from '../../utils/axiosWithAuth';
 
 const Limit = () => {
 
-    useEffect(()=> {
+    useEffect(() => {
         axiosWithAuth()
             .get()
             .then()
             .catch()
-    },[])
+    }, [])
     return (
         <>
         </>

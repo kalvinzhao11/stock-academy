@@ -7,12 +7,12 @@ import {createStore} from 'redux'
 import {BrowserRouter as Router} from 'react-router-dom'
 
 ReactDOM.render(
-  // <Provider>
+    // <Provider>
     <Router>
-      <App />
+        <App/>
     </Router>
-  // </Provider>
-,
-  document.getElementById('root')
+    // </Provider>
+    ,
+    document.getElementById('root')
 );
 
